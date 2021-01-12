@@ -1,0 +1,11 @@
+[37mDEBU[0m[11 Jan 21 22:35 -0500] PreRun                                        [37marguments[0m=[] [37mcommand[0m=deploy
+[37mDEBU[0m[11 Jan 21 22:35 -0500] configure debug middleware                   
+[37mDEBU[0m[11 Jan 21 22:35 -0500] configure logging middleware                 
+[37mDEBU[0m[11 Jan 21 22:35 -0500] setup logger middleware: panic               
+[37mDEBU[0m[11 Jan 21 22:35 -0500] configure auth middleware                    
+[37mDEBU[0m[11 Jan 21 22:35 -0500] setup credentials                             [37mcredentials[0m=0x146b000
+[37mDEBU[0m[11 Jan 21 22:35 -0500] configure client middleware                  
+[37mDEBU[0m[11 Jan 21 22:35 -0500] setup API endpoint                            [37mendpoint[0m="https://api.netlify.com"
+[37mDEBU[0m[11 Jan 21 22:35 -0500] configure site middleware                    
+[37mDEBU[0m[11 Jan 21 22:35 -0500] Parsed configuration: {Settings:{ID:2096cbd2-3e15-41bf-a6da-9e9d25ef69f6 Path:} Build:{Publish: Functions:} Redirects:[] root:/Users/juan.bernal/developer/contenful/second-space-nuxt/second-space-nuxt filePath:netlify.toml} 
+[31mERRO[0m[11 Jan 21 22:35 -0500] command failed                                [31merror[0m="Error copying netlify.toml to the publish directory: public: open public/netlify.toml: no such file or directory"

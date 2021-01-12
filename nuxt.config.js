@@ -44,3 +44,6 @@ module.exports = {
   }
 }
 
+export default {
+  target: 'static'
+}
